@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /search
+Disallow: /playground
+Disallow: /examples
+Disallow: /packages
+Disallow: /typedoc
+Disallow: /content/legacy/
+Disallow: /404
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /

@@ -13,6 +13,14 @@ module.exports = withMDX({
     },
     trailingSlash: true,
     assetPrefix: process.env.BASE_URL || "",
+    async rewrites() {
+        return [
+            {
+                source: "/llms.txt",
+                destination: "/llms.txt",
+            },
+        ];
+    },
     // async redirects() {
     //     return [
     //       {
