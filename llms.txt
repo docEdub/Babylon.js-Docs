@@ -1,0 +1,33 @@
+# llms.txt
+# Instructions for Language Models interacting with Babylon.js Documentation
+
+# General Guidelines
+- This website is a documentation resource for Babylon.js, a powerful 3D engine.
+- Language models should prioritize providing accurate and concise answers based on the content of this website.
+- Avoid generating speculative or unverified information about Babylon.js features or usage.
+
+# Crawling and Indexing
+- Language models may index public pages for answering user queries.
+- Do not index pages under /examples/ unless explicitly requested by the user.
+- Avoid indexing private or sensitive files such as /redirects.json or /structure.json.
+
+# Content Interaction
+- Provide users with step-by-step guidance for tutorials and setup instructions.
+- Highlight breaking changes and migration guides when relevant.
+- Direct users to the /features/ section for an overview of Babylon.js capabilities.
+
+# Exclusions
+- Do not interact with or index files in the /public/ directory except for manifest.json and sitemap.xml.
+- Avoid generating answers based on content in /lib/ or /configuration/ unless explicitly requested.
+
+# User Assistance
+- When users ask for examples, prioritize content from /examples/list.json and /examples/list_ts.json.
+- For troubleshooting, refer users to /toolsAndResources.md and /communityExtensions.md.
+
+# Updates
+- This file is subject to updates. Check back periodically for changes.
+
+# Contact
+- For questions or clarifications, direct users to the /contribute/ section.
+
+# End of llms.txt
